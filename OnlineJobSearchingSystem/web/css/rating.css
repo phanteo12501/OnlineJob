@@ -1,0 +1,215 @@
+.navbar-nav {
+    width: 100%;
+}
+
+.mentor-name {
+    font-weight: 20px;
+}
+
+.avt {
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.avatar {
+    padding-bottom: 10px;
+}
+
+.create {
+    height: 50px;
+    width: 140px;
+    background:rgb(84, 142, 228);
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding:  10px;
+    font-weight: bold;
+    border: solid black;
+    border-width: 2px 2px 2px 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.input-white{
+    background: white;
+  line-height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+  border: 2px solid black;
+}
+
+.post-btn{
+    text-align: right;
+}
+
+.form-cmt {
+    padding-top:20px;
+}
+
+.cmt{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.cmt h4{
+    padding-bottom: 10px;
+}
+
+.mess {
+    color:red;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+@media(min-width:568px) {
+    .end {
+        margin-left: auto;
+    }
+}
+
+@media(max-width:768px) {
+    #post {
+        width: 100%;
+    }
+}
+
+#clicked {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    width: 100%;
+    background-color: #ecb21f;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+}
+
+#profile {
+    background-color: unset;
+}
+
+#post {
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #7ad0f1;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+    width: 50%;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+#nav-items li a,
+
+
+.comments {
+    margin-top: 5%;
+    margin-left: 20px
+}
+
+.comment {
+    width:550px;
+    height:auto;
+    background-color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.comment h4,
+.comment span,
+.darker h4,
+.darker span {
+    display: inline;
+}
+
+.comment p,
+.comment span,
+.darker p,
+.darker span {
+    color: black;
+}
+
+h1,
+h4 {
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    color: black;
+}
+
+.form-group p a {
+    color: black;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: aliceblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 12px;
+}
+
+form {
+    border: 1px solid lightsteelblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+}
